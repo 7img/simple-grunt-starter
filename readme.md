@@ -41,10 +41,10 @@ Now run:
 grunt
 ```
 
-Done! Grunt is now watching for your changes and writes them to the  dist folder! 
+Done! Grunt is now watching for your changes and writes them to the  dist folder!
 
 Ready to go live? Run the following command to minify your files:
 ```
-grunt
+grunt build
 ```
 Don't forget to change that paths in your html to the .min version!
