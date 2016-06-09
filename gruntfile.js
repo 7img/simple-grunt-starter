@@ -69,17 +69,16 @@ module.exports = function(grunt) {
 			}
 	  },
 		watch : {
+			options: {
+				livereload: true,
+			},
 			scripts: {
 			    files: ['src/js/**/*.js'],
 			    tasks: ['concat']
 				}, //scripts
 				sass: {
-				    files: [
-	              'src/scss/*.scss',
-				        'src/scss/*/*.scss',
-				        'src/scss/*/*/*.scss'
-				    ],
-				   	tasks: ['sass']
+					files: ['src/scss/**/*.scss'],
+			   	tasks: ['sass']
 				}
 		}
 	}); //initConfig
