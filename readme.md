@@ -12,6 +12,7 @@ This is a Grunt starter kit with Bootstrap that I use for my own projects.
 - Adds Bootstrap javascript to your javascript file.
 - Minifies that javascript file to a custom.min.js for your live websites.
 - Add any javascript file and it gets included automaticly!
+- Supports LiveReload!
 
 ## Getting Started
 
@@ -47,4 +48,4 @@ Ready to go live? Run the following command to minify your files:
 ```
 grunt build
 ```
-Don't forget to change that paths in your html to the .min version!
+Don't forget to change the paths in your html to the .min version!

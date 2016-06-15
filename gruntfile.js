@@ -39,7 +39,7 @@ module.exports = function(grunt) {
 				},
 			targets: {
 				files: {
-					'dist/js/custom.js' : ['src/js/*/*/*.js', 'src/js/*/*.js', 'src/js/custom.js'],
+					'dist/js/custom.js' : ['node_modules/bootstrap-sass/assets/javascripts/bootstrap.js', 'src/js/*/*/*.js', 'src/js/*/*.js', 'src/js/custom.js'],
 				} //Files
 			}
 		}, //concat
