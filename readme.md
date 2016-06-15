@@ -5,13 +5,13 @@ This is a Grunt starter kit with Bootstrap that I use for my own projects.
 ## Simple Grunt starter:
 - Compiles SCSS / SASS to one style.css file.
 - Also minifies that style.css to style.min.css. For use on your live websites.
-- Automaticly includes bootstrap-sass that you can overwrite with your own variables. Theming your Bootstrap has never been easier!
-- Add any scss file and it gets included automaticly!
+- automatically includes bootstrap-sass that you can overwrite with your own variables. Theming your Bootstrap has never been easier!
+- Add any scss file and it gets included automatically!
 - Checks your js files for errors.
 - Combines JS files to one custom.js file.
 - Adds Bootstrap javascript to your javascript file.
 - Minifies that javascript file to a custom.min.js for your live websites.
-- Add any javascript file and it gets included automaticly!
+- Add any javascript file and it gets included automatically!
 - Supports LiveReload!
 
 ## Getting Started
@@ -42,7 +42,7 @@ Now run:
 grunt
 ```
 
-Done! Grunt is now watching for your changes and writes them to the  dist folder!
+Done! Grunt is now watching for your changes and writes them to the dist folder!
 
 Ready to go live? Run the following command to minify your files:
 ```
