@@ -1,6 +1,6 @@
 {
   "name": "simple-grunt-starter",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple grunt starter that compiles Javascript and SCSS with bootstrap",
   "homepage" : "https://github.com/7img/simple-grunt-starter",
   "bugs" : {
