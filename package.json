@@ -4,7 +4,7 @@
   "description": "A simple grunt starter that compiles Javascript and SCSS with bootstrap",
   "homepage" : "https://github.com/7img/simple-grunt-starter",
   "bugs" : {
-    "url" "https://github.com/7img/simple-grunt-starter/issues"
+    "url" : "https://github.com/7img/simple-grunt-starter/issues"
   },
   "author": "Tim Geerlings <Tim@7im.nl> (http://www.timgeerlings.com/)",
   "license": "ISC",
