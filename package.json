@@ -1,8 +1,12 @@
 {
   "name": "simple-grunt-starter",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A simple grunt starter that compiles Javascript and SCSS with bootstrap",
   "homepage": "https://github.com/7img/simple-grunt-starter",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/7img/simple-grunt-starter.git"
+  },
   "bugs": {
     "url": "https://github.com/7img/simple-grunt-starter/issues"
   },
@@ -16,9 +20,9 @@
     "grunt-contrib-watch": "1.0.0",
     "grunt-copy-mate": "^0.1.4",
     "grunt-sass": "^2.0.0",
-    "matchdep": "1.0.1"
+    "matchdep": "2.0.0"
   },
   "dependencies": {
-    "bootstrap-sass": "^3.3.6"
+    "bootstrap-sass": "^3.3.7"
   }
 }
