@@ -47,27 +47,36 @@ module.exports = function(grunt) {
 			files: {
 					expand: true,
 					cwd: 'dist/css/',
-					src: ['*.css', '!*.min.css'], // 1
+					src: ['*.css', '!*.min.css'],
 					dest: 'dist/css/',
 					ext: '.min.css'
 			}
 		},
-		copy_mate: {
-			boostrap_fonts : {
-				options: {
-					type: "single"
-				},
-				src: 'node_modules/bootstrap-sass/assets/fonts/',
-				destDir: 'dist/fonts'
-			},
-			bootstrap_images : {
-				options: {
-					type: "single"
-				},
-				src: 'node_modules/bootstrap-sass/assets/images/',
-				destDir: 'dist/images'
+		copy: {
+			fonts: {
+				files: [{
+					expand: true,
+					src: '**',
+					dest: 'dist/fonts',
+					cwd: 'node_modules/bootstrap-sass/assets/fonts/',
+				}]
 			}
 	  },
+		htmlmin: {
+			dev: {
+				// @NOTE: All options can be found at https://github.com/kangax/html-minifier#options-quick-reference
+				options: {
+	        removeComments: true,
+	        collapseWhitespace: true
+	      },
+        files: [{
+					expand: true,
+          cwd: 'src',
+          src: ['**/*.html', '*.html'],
+          dest: 'dist'
+				}]
+			}
+		},
 		watch : {
 			options: {
 				livereload: true
@@ -75,14 +84,18 @@ module.exports = function(grunt) {
 			scripts: {
 			    files: ['src/js/**/*.js'],
 			    tasks: ['concat']
-				}, //scripts
+				},
 				sass: {
 					files: ['src/scss/**/*.scss'],
 			   	tasks: ['sass']
+				},
+				html: {
+					files: ['src/**/*.html', '*.html'],
+					tasks: ['htmlmin']
 				}
 		}
 	}); //initConfig
 	grunt.registerTask('default', ['watch']);
-	grunt.registerTask('init', ['copy_mate', 'concat', 'uglify', 'sass', 'cssmin']);
-	grunt.registerTask('build', ['concat', 'uglify', 'sass', 'cssmin']);
+	grunt.registerTask('init', ['copy', 'concat', 'uglify', 'sass', 'cssmin', 'htmlmin']);
+	grunt.registerTask('build', ['concat', 'uglify', 'sass', 'cssmin', 'htmlmin']);
 } //exports

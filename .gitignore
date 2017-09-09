@@ -197,3 +197,6 @@ usercontent/
 
 # Cache
 /App_Data/cache/
+
+# Dist
+dist

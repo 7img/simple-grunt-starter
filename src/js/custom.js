@@ -1,3 +1,3 @@
 $(document).ready(function(){
-  console.log('hello simple-grunt-starter');
+  console.log('hello world!');
 });
