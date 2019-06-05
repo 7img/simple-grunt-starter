@@ -1,32 +1,28 @@
 # Welcome to simple grunt starter.
 
-This is a Grunt starter kit / boilerplate with Bootstrap that I use for my own projects. If you have any requests or remarks please let me know! :-).
+This is a Grunt starter kit / boilerplate with Bootstrap that I use for my own projects. If you have any requests or remarks please let me know 🙂
 
 ## Release notes
-Version 1.1.0 released!
-- Added a Grunt HTML minifier.
-- Added default meta tags.
-- [.editorconfig](http://editorconfig.org/) added.
-- Updated the .gitignore to ignore the dist folder.
-- Readme updates.
-- Replaced [grunt-copy-mate](https://www.npmjs.com/package/grunt-copy-mate) since it is no longer maintained.
+Version 1.4.0
+- Package update
+- Minor text fixes
 
 ## Features:
 - Compiles SCSS / SASS to one style.css file.
 - Also minifies that style.css to style.min.css. For use on your live websites.
-- Automatically includes bootstrap-sass that you can overwrite with your own variables. Theming your Bootstrap has never been easier!
-- Add any scss file and it gets included automatically!
-- Checks your js files for errors.
+- Automatically includes bootstrap-sass that you can overwrite with your own variables.
+- Add any SCSS file and it gets included automatically.
+- Checks your JS files for errors.
 - Combines JS files to one custom.js file.
-- Adds Bootstrap javascript to your javascript file.
-- Minifies that javascript file to a custom.min.js for your live websites.
-- Add any javascript file and it gets included automatically!
-- Supports LiveReload!
-- Minifies your html automatically!
+- Adds Bootstrap Javascript to your Javascript file.
+- Minifies that Javascript file to a custom.min.js for your live websites.
+- Add any Javascript file and it gets included automatically.
+- Supports LiveReload.
+- Minifies your html automatically.
 
 ## Getting Started
 
-You need
+Requirements:
 - [Node.js](https://nodejs.org/en/)
 - [Grunt](http://gruntjs.com/)
 - https://yarnpkg.com/ (optional)
@@ -40,6 +36,7 @@ For example:
 cd C:\Development\GIT\simple-grunt-starter
 ```
 
+### Development
 To get started we will need to install the required packages specified in package.json. This is done by entering the following command in your Node.js command prompt:
 ```bash
 yarn
@@ -61,8 +58,10 @@ grunt
 
 Every time you change a file the watch task will trigger and compile everything in the dist folder!
 
+### Production
 Ready to go live? Run the following command to minify your files:
 ```bash
 grunt build
 ```
+
 Don't forget to change the paths in your html to the .min version or use index.min.html!
