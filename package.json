@@ -1,6 +1,6 @@
 {
   "name": "simple-grunt-starter",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Simple Grunt starter for your projects that compiles and minifies Javascript and SCSS with (optional) Bootstrap",
   "homepage": "https://github.com/7img/simple-grunt-starter",
   "repository": {
