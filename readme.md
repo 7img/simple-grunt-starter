@@ -1,10 +1,11 @@
 # Welcome to simple grunt starter.
 
-This is a Grunt starter kit / boilerplate with Bootstrap that I use for my own projects. If you have any requests or remarks please let me know 🙂
+This is a Grunt starter kit / boilerplate with ~~Bootstrap~~ [Bulma](https://bulma.io/) that I use for my own projects. If you have any requests or remarks please let me know 🙂
 
 ## Release notes
-Version 1.4.0
-- Package update
+Version 1.5.0
+- Replaced Bootstrap with [Bulma](https://bulma.io/)
+- Package.json dependencies update
 - Minor text fixes
 
 ## Features:

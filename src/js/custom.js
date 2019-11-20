@@ -1,3 +1,7 @@
-$(document).ready(function(){
-  console.log('hello world!');
-});
+(function($) {
+
+  $(document).ready(function() {
+    console.log('Hello world');
+  });
+
+})(jQuery);
