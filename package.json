@@ -1,6 +1,6 @@
 {
   "name": "simple-grunt-starter",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "Simple Grunt starter for your projects that compiles and minifies Javascript and SCSS with (optional) Bulma",
   "homepage": "https://github.com/7img/simple-grunt-starter",
   "repository": {
@@ -10,7 +10,7 @@
   "bugs": {
     "url": "https://github.com/7img/simple-grunt-starter/issues"
   },
-  "author": "Tim Geerlings <Tim@7im.nl> (http://www.timgeerlings.com/)",
+  "author": "Tim Geerlings <Tim@7im.nl> (https://www.timgeerlings.com/)",
   "license": "ISC",
   "scripts": {
     "init": "grunt init",
@@ -26,7 +26,7 @@
     "grunt-contrib-uglify": "4.0.1",
     "grunt-contrib-watch": "1.1.0",
     "grunt-sass": "3.1.0",
-    "node-sass": "4.13.0",
+    "node-sass": "4.13.1",
     "matchdep": "2.0.0"
   },
   "dependencies": {
