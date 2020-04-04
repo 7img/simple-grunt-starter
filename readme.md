@@ -2,12 +2,6 @@
 
 This is a Grunt starter kit / boilerplate with ~~Bootstrap~~ [Bulma](https://bulma.io/) that I use for my own projects. If you have any requests or remarks please let me know 🙂
 
-## Release notes
-Version 1.5.0
-- Replaced Bootstrap with [Bulma](https://bulma.io/)
-- Package.json dependencies update
-- Minor text fixes
-
 ## Features:
 - Compiles SCSS / SASS to one style.css file.
 - Also minifies that style.css to style.min.css. For use on your live websites.
@@ -37,7 +31,7 @@ For example:
 cd C:\Development\GIT\simple-grunt-starter
 ```
 
-### Development
+### Watching for file changes
 To get started we will need to install the required packages specified in package.json. This is done by entering the following command in your Node.js command prompt:
 ```bash
 yarn
@@ -59,10 +53,20 @@ grunt
 
 Every time you change a file the watch task will trigger and compile everything in the dist folder!
 
-### Production
+### Building for production
 Ready to go live? Run the following command to minify your files:
 ```bash
 grunt build
 ```
 
 Don't forget to change the paths in your html to the .min version or use index.min.html!
+
+## Release notes
+Version 1.6.0
+- Security / package.json dependency update
+- Minor text fixes
+
+Version 1.5.0
+- Replaced Bootstrap with [Bulma](https://bulma.io/)
+- Package.json dependencies update
+- Minor text fixes

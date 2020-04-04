@@ -1,7 +1,7 @@
 {
   "name": "simple-grunt-starter",
-  "version": "1.5.3",
-  "description": "Simple Grunt starter for your projects that compiles and minifies Javascript and SCSS with (optional) Bulma",
+  "version": "1.6.0",
+  "description": "Simple Grunt starter for your projects that watches, compiles and minifies Javascript and SCSS with (optional) Bulma",
   "homepage": "https://github.com/7img/simple-grunt-starter",
   "repository": {
     "type": "git",
@@ -10,7 +10,10 @@
   "bugs": {
     "url": "https://github.com/7img/simple-grunt-starter/issues"
   },
-  "author": "Tim Geerlings <Tim@7im.nl> (https://www.timgeerlings.com/)",
+  "author": {
+    "name": "Tim Geerlings",
+    "url": "https://www.timgeerlings.com/"
+  },
   "license": "ISC",
   "scripts": {
     "init": "grunt init",
@@ -18,7 +21,7 @@
     "watch": "grunt"
   },
   "devDependencies": {
-    "grunt": "1.0.4",
+    "grunt": "1.1.0",
     "grunt-contrib-concat": "1.0.1",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "3.0.0",
@@ -30,6 +33,6 @@
     "matchdep": "2.0.0"
   },
   "dependencies": {
-    "bulma": "0.8.0"
+    "bulma": "0.8.1"
   }
 }
