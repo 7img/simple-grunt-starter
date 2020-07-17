@@ -62,6 +62,11 @@ grunt build
 Don't forget to change the paths in your html to the .min version or use index.min.html!
 
 ## Release notes
+Version 1.7.0
+- Update to Grunt 1.2.0
+- Update to Bulma 0.9.0
+- Security / package.json dependency update
+
 Version 1.6.0
 - Security / package.json dependency update
 - Minor text fixes
