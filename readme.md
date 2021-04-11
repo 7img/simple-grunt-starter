@@ -5,11 +5,10 @@ This is a Grunt starter kit / boilerplate with ~~Bootstrap~~ [Bulma](https://bul
 ## Features:
 - Compiles SCSS / SASS to one style.css file.
 - Also minifies that style.css to style.min.css. For use on your live websites.
-- Automatically includes bootstrap-sass that you can overwrite with your own variables.
+- Automatically includes Bulma's initial variables sass that you can overwrite with your own variables.
 - Add any SCSS file and it gets included automatically.
 - Checks your JS files for errors.
 - Combines JS files to one custom.js file.
-- Adds Bootstrap Javascript to your Javascript file.
 - Minifies that Javascript file to a custom.min.js for your live websites.
 - Add any Javascript file and it gets included automatically.
 - Supports LiveReload.
@@ -62,6 +61,9 @@ grunt build
 Don't forget to change the paths in your html to the .min version or use index.min.html!
 
 ## Release notes
+Version 1.8.0
+- Security / package.json dependency update
+
 Version 1.7.0
 - Update to Grunt 1.2.0
 - Update to Bulma 0.9.0

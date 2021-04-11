@@ -1,6 +1,6 @@
 {
   "name": "simple-grunt-starter",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "Simple Grunt starter for your projects that watches, compiles and minifies Javascript and SCSS with (optional) Bulma",
   "homepage": "https://github.com/7img/simple-grunt-starter",
   "repository": {
@@ -21,18 +21,18 @@
     "watch": "grunt"
   },
   "devDependencies": {
-    "grunt": "1.2.1",
+    "grunt": "1.3.0",
     "grunt-contrib-concat": "1.0.1",
     "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-cssmin": "3.0.0",
+    "grunt-contrib-cssmin": "4.0.0",
     "grunt-contrib-htmlmin": "3.1.0",
-    "grunt-contrib-uglify": "5.0.0",
+    "grunt-contrib-uglify": "5.0.1",
     "grunt-contrib-watch": "1.1.0",
     "grunt-sass": "3.1.0",
     "node-sass": "4.14.1",
     "matchdep": "2.0.0"
   },
   "dependencies": {
-    "bulma": "0.9.0"
+    "bulma": "0.9.2"
   }
 }
