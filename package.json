@@ -1,6 +1,6 @@
 {
   "name": "simple-grunt-starter",
-  "version": "1.8.2",
+  "version": "1.8.3",
   "description": "Simple Grunt starter for your projects that watches, compiles and minifies Javascript and SCSS with (optional) Bulma",
   "homepage": "https://github.com/7img/simple-grunt-starter",
   "repository": {
