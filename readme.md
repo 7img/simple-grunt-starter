@@ -61,7 +61,7 @@ grunt build
 Don't forget to change the paths in your html to the .min version or use index.min.html!
 
 ## Release notes
-Version 1.8.0
+Version 1.8.0, 1.9.0
 - Security / package.json dependency update
 
 Version 1.7.0
